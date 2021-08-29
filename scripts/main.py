@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Jul  2 10:21:08 2020
+Modified on August 29, 2021
+@author: KoiDev13
 
-@author: Fazlur Rahman
 """
 
 from preprocessing import get_grayscale, get_binary, invert_area, draw_text, detect
@@ -10,7 +10,8 @@ from ROI_selection import detect_lines, get_ROI
 import cv2 as cv
 
 def main(display = False, print_text = False, write = False):
-    filename = '../images/source7.png'
+    # Remember to crosscheck the filename path
+    filename = 'D:/GIT/Text-Extraction-Table-Image/images/source.png'
     
     src = cv.imread(cv.samples.findFile(filename))
     

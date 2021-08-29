@@ -1,5 +1,5 @@
 import pytesseract
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files (x86)\Tesseract-OCR\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 import cv2 as cv
 from ROI_selection import detect_lines, get_ROI

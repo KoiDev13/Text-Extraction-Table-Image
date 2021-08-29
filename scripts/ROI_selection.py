@@ -1,27 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Jun 16 15:48:11 2020
-
-@author: My Laptop
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jun 16 14:19:57 2020
-
-@author: My Laptop
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jun 16 13:48:51 2020
-
-@author: My Laptop
-"""
-
-"""
-@file hough_lines.py
-@brief This program demonstrates line finding with the Hough transform
+Modified on August 29, 2021
+@author: KoiDev13
 """
 import sys
 import math
